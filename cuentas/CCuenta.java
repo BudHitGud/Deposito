@@ -1,4 +1,10 @@
 package cuentas;
+
+/**
+ * La clase CCuenta contiene los metodos tipicos de una cuenta corriente:
+ *  Ingresar, retirar, comprobarsaldo.
+ *   Y su constructor y campos encapsulados.-
+ */
 public class CCuenta {
 
 

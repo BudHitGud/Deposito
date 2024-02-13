@@ -1,5 +1,7 @@
 package cuentas;
-
+/**
+ * La clase Main es la entrada principal del programa y donde se ejecuta el unico metodo
+ */
 public class Main {
 
     public static void main(String[] args) 
@@ -7,7 +9,13 @@ public class Main {
     	//pese a que el ejercicicio no lo indica, incluyo un parametro float en la llamada al metodo para que no de error (1.3f)
         operativa_cuenta(1.3f);
     }
-
+/**
+ * El metodo operativa_cuenta crea una cuenta ficticia y realiza dos operaciones a modo de muestra, imprimiendo el estado
+ * @param cantidad  Este parametro deberia ser usado dentro de los metodos retirar o ingresar pero todavia no esta redactado el codigo.
+ *
+    @see CCuenta.ingresar();
+    @see CCuenta.retirar();
+    */
 	private static void operativa_cuenta(float cantidad) 
 	{
 		CCuenta cuenta1;
@@ -29,7 +37,7 @@ public class Main {
         try
         {
             System.out.println("Ingreso en cuenta");
-            cuenta1.ingresar(695);
+            cuenta1.ingresar(685);
         } 
         catch (Exception e)
         {
